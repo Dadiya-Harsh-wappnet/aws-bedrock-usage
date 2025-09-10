@@ -1,0 +1,10 @@
+import os 
+from dotenv import load_dotenv
+load_dotenv()
+
+
+AWS_BEARER_TOKEN_BEDROCK = os.getenv('AWS_BEARER_TOKEN_BEDROCK')
+ACCESS_KEY_ID = os.getenv('ACCESS_KEY_ID')
+SECRET_ACCESS_KEY = os.getenv('SECRET_ACCESS_KEY')
+AWS_ACCOUNT_ID = os.getenv('AWS_ACCOUNT_ID')
+region_name = os.getenv('region_name')
