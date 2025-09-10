@@ -90,7 +90,7 @@ def lambda_handler(event, context):
 
 # ------------------- Utility Functions -------------------
 
-def invoke_bedrock_model(client, prompt, model_id="anthropic.claude-3-sonnet-20240229-v1:0", max_tokens=4000):
+def invoke_bedrock_model(client, prompt, model_id="antanthropic.claude-3-haiku-20240307-v1:0", max_tokens=4000):
     """Invoke AWS Bedrock model"""
     request_body = json.dumps({
         "anthropic_version": "bedrock-2023-05-31",

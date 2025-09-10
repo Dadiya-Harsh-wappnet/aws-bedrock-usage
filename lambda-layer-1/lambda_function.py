@@ -24,7 +24,7 @@ except ImportError:
 
 # Environment variables
 DYNAMODB_TABLE = os.environ.get('DYNAMODB_TABLE', 'agent-workflow-state')
-NEXT_FUNCTION_NAME = os.environ.get('NEXT_FUNCTION_NAME', 'analyze-document')
+NEXT_FUNCTION_NAME = os.environ.get('NEXT_FUNCTION_NAME', 'analysis-agent')
 MAX_CONTENT_SIZE = int(os.environ.get('MAX_CONTENT_SIZE', '50000'))  # Max chars to store in DynamoDB
 
 class DocumentProcessor:
