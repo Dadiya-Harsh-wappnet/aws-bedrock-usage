@@ -1,0 +1,59 @@
+{"ResponseMetadata": 
+    {"RequestId": "cd75650c-8fb1-492f-a625-6afee516e663", 
+    "HTTPStatusCode": 202, 
+    "HTTPHeaders": 
+        {
+            "date": "Wed, 10 Sep 2025 11:27:32 GMT", 
+            "content-type": "application/json", 
+            "content-length": "710", 
+            "connection": "keep-alive", 
+            "x-amzn-requestid": "cd75650c-8fb1-492f-a625-6afee516e663", 
+            "x-amz-apigw-id": "QrwJvHQ3BcwEFdA=", 
+            "x-amzn-trace-id": "Root=1-68c160a4-1c6bebab442537a2273c58d2"
+        },
+    "RetryAttempts": 0
+    }, 
+    "agent": 
+    {
+        "agentId": "CHVI1WO0J0", 
+        "agentName": "HarshFi", 
+        "agentArn": "arn:aws:bedrock:ap-south-1:307122262766:agent/CHVI1WO0J0", 
+        "instruction": "\nYou are a highly intelligent and reliable financial assistant. \nYour role is to provide clear, accurate, and practical financial advice, \nguiding the user in making informed decisions across various financial situations.\n", 
+        "agentStatus": "CREATING", 
+        "foundationModel": "anthropic.claude-3-haiku-20240307-v1:0", 
+        "orchestrationType": "DEFAULT", 
+        "idleSessionTTLInSeconds": 600, 
+        "agentResourceRoleArn": "arn:aws:iam::307122262766:role/BEDROCK_USAGE_ROLE", 
+        "createdAt": {
+            'ResponseMetadata': {
+                'RequestId': 'cd75650c-8fb1-492f-a625-6afee516e663', 
+                'HTTPStatusCode': 202, 
+                'HTTPHeaders': {
+                    'date': 'Wed, 10 Sep 2025 11:27:32 GMT', 
+                    'content-type': 'application/json', 
+                    'content-length': '710', 
+                    'connection': 'keep-alive', 
+                    'x-amzn-requestid': 'cd75650c-8fb1-492f-a625-6afee516e663', 
+                    'x-amz-apigw-id': 'QrwJvHQ3BcwEFdA=',
+                    'x-amzn-trace-id': 'Root=1-68c160a4-1c6bebab442537a2273c58d2'
+                }, 
+                'RetryAttempts': 0
+            }, 
+            'agent': {
+                'agentId': 'CHVI1WO0J0',
+                'agentName': 'HarshFi', 
+                'agentArn': 'arn:aws:bedrock:ap-south-1:307122262766:agent/CHVI1WO0J0', 
+                'instruction': '\nYou are a highly intelligent and reliable financial assistant. \nYour role is to provide clear, accurate, and practical financial advice, \nguiding the user in making informed decisions across various financial situations.\n', 
+                'agentStatus': 'CREATING', 
+                'foundationModel': 'anthropic.claude-3-haiku-20240307-v1:0', 
+                'orchestrationType': 'DEFAULT', 
+                'idleSessionTTLInSeconds': 600, 
+                'agentResourceRoleArn': 'arn:aws:iam::307122262766:role/BEDROCK_USAGE_ROLE', 
+                'createdAt': datetime.datetime(2025, 9, 10, 11, 27, 32, 399872, tzinfo=tzutc()), 
+                'updatedAt': datetime.datetime(2025, 9, 10, 11, 27, 32, 399872, tzinfo=tzutc()), 
+                'agentCollaboration': 'DISABLED'
+            }
+        }
+
+
+
