@@ -3,3 +3,7 @@ python-dotenv
 ipdb
 PyPDF2
 python-docx
+strands-agents
+strands-agents-tools 
+strands-agents-builder
+strands-agents[openai]
